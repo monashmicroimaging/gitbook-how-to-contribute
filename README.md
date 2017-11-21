@@ -44,7 +44,10 @@ Done! You have everything installed now that you'll need to contribute to our Gi
   * Find the Gitbook you want in the list of repositories, and click to open it; eg: gitbook-fiji-basics. (If you can't see any repositories with the prefix "gitbook-..." check whether you have been added the MMI GitLab group - see step #2 above).
   * Copy the HTTPS address at the top of the screen, under the name and description for this repository.
   * Open the command line (Windows: type "cmd" in the start search bar / Mac: open "terminal" from the Launchpad / Linux: you already know this, c'mon!)
-  * At the command line, switch into the location you want to put the gitbooks. Type: `cd \\Documents\\Gitbook_library\\Gitbooks\\`
+  * At the command line, switch into the location you want to put the gitbooks. Type: 
+  
+     `cd \\Documents\\Gitbook_library\\Gitbooks\\`
+  
   * At the command line, type: `git clone ` then copy-paste the https address to the gitbook.
 
 ## Contributing to a GitBook
