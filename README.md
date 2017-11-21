@@ -46,7 +46,7 @@ Done! You have everything installed now that you'll need to contribute to our Gi
   * Open the command line (Windows: type "cmd" in the start search bar / Mac: open "terminal" from the Launchpad / Linux: you already know this, c'mon!)
   * At the command line, switch into the location you want to put the gitbooks. Type: 
   
-     `cd \\Documents\\Gitbook_library\\Gitbooks\\`
+     `cd Documents\Gitbook_library\Gitbooks\`
   
   * At the command line, type: `git clone ` then copy-paste the https address to the gitbook.
 
