@@ -66,7 +66,7 @@ You should see the terminal print a bunch of messages like this if your clone is
  
  `Resolving deltas: 100% (244/244), done.`
 
-### Troubleshooting
+#### Troubleshooting tips
 If you are **not** successful you may see an error message. Here are some common ones, and ways to troubleshoot them.
 
  `Error: "git" command line tool is not installed`
@@ -83,7 +83,7 @@ If you see this error message, it's likely due to one of two possibilities.
 
 **Possibility 1:** the repository address you pasted after `git clone ` might have started with `git@gitlab...`. You need the repository address starting with `https:`. Go back to the repository you want on the [MMI GitLab page](https://gitlab.erc.monash.edu.au/mmi) and make sure you have HTTPS selected in the dropdown menu beside the address you are copying. (Alternatively, the HTTPS address is also the url in your browser, so you can also copy it from there.)
 
-**Possibility 2** You might not have been given the correct access permissions - please contact an MMI Image Analyst to assist you.
+**Possibility 2:** You might not have been given the correct access permissions - please contact an MMI Image Analyst to assist you.
 
 ## Contributing to a GitBook
 Open the Gitbook editor software, and click on the name of the particular Gitbook you want to edit.
