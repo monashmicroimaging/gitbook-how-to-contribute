@@ -42,13 +42,47 @@ Done! You have everything installed now that you'll need to contribute to our Gi
 ## Get the Gitbooks (cloning from GitLab)
   * Go to the [MMI GitLab page](https://gitlab.erc.monash.edu.au/mmi)
   * Find the Gitbook you want in the list of repositories, and click to open it; eg: gitbook-fiji-basics. (If you can't see any repositories with the prefix "gitbook-..." check whether you have been added the MMI GitLab group - see step #2 above).
-  * Copy the HTTPS address at the top of the screen, under the name and description for this repository.
+  * Copy the HTTPS address at the top of the screen, under the name and description for this repository. It should start with `https:`. If you have copied something that starts with `git@gitlab...`
   * Open the command line (Windows: type "cmd" in the start search bar / Mac: open "terminal" from the Launchpad / Linux: you already know this, c'mon!)
   * At the command line, switch into the location you want to put the gitbooks. Type: 
   
      `cd Documents\Gitbook_library\Gitbooks\`
   
-  * At the command line, type: `git clone ` then copy-paste the https address to the gitbook.
+  then hit the Enter/Return key on your keyboard.
+  
+  * At the command line, type: `git clone ` then copy-paste the https address to the gitbook. Hit the Enter/Return key on your keyboard. (Tip: Make sure you have a space between the word `clone` and the start of your `https:...` address.)
+
+You should see the terminal print a bunch of messages like this if your clone is successful:
+
+ `Cloning into 'gitbook-fiji-basics'...`
+ 
+ `remote: Counting objects: 615, done.`
+ 
+ `remote: Compressing objects: 100% (383/383), done.`
+ 
+ `remote: Total 615 (delta 244), reused 593 (delta 226)`
+ 
+ `Receiving objects: 100% (615/615), 5.73 MiB | 34.13 MiB/s, done.`
+ 
+ `Resolving deltas: 100% (244/244), done.`
+
+If you are not successful you may see an error message. Here are some common ones, and ways to troubleshoot them.
+
+ `Error: "git" command line tool is not installed`
+
+If you see this error message, you may need to [reinstall](https://git-scm.com/downloads) the git command line tools (see step 1 in "What you need to install").
+ 
+ `Permission denied (publickey).`
+ 
+ `fatal: Could not read from remote repository.`
+ 
+ `Please make sure you have the correct access rights and the repository exists.`
+
+If you see this error message, it's likely due to one of two possibilities.
+
+**Possibility 1:** the repository address you pasted after `git clone ` might have started with `git@gitlab...`. You need the repository address starting with `https:`. Go back to the repository you want on the [MMI GitLab page](https://gitlab.erc.monash.edu.au/mmi) and make sure you have HTTPS selected in the dropdown menu beside the address you are copying. (Alternatively, the HTTPS address is also the url in your browser, so you can also copy it from there.)
+
+**Possibility 2** You might not have been given the correct access permissions - please contact an MMI Image Analyst to assist you.
 
 ## Contributing to a GitBook
 Open the Gitbook editor software, and click on the name of the particular Gitbook you want to edit.
