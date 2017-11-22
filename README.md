@@ -66,7 +66,8 @@ You should see the terminal print a bunch of messages like this if your clone is
  
  `Resolving deltas: 100% (244/244), done.`
 
-If you are not successful you may see an error message. Here are some common ones, and ways to troubleshoot them.
+### Troubleshooting
+If you are **not** successful you may see an error message. Here are some common ones, and ways to troubleshoot them.
 
  `Error: "git" command line tool is not installed`
 
