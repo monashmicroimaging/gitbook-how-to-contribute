@@ -2,6 +2,10 @@
 # install the plugins and build the static site
 gitbook install && gitbook build
 
+# Note that if you ever have a mysterious case of gitbook not producing .html files for each markdown file
+# go check the SUMMARY.md file and make sure that it points to the correct markdown filenames!
+# This is often the case when people rearrange the order of chapters/content substantially.
+
 # checkout to the gh-pages branch
 git checkout gh-pages
 
