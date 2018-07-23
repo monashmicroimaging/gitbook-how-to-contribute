@@ -30,6 +30,19 @@ Make sure you have pushed the new html files to GitHub (not GitLab) on the gh-pa
 ### 3. Generate the PDF
 [Here are the official instructions for generating pdfs from a gitbook](https://toolchain.gitbook.com/ebook.html).
 
+You do not have to generate html before you can build the pdf/ePub/Mobi.
+
+```
+# Generate a PDF file
+$ gitbook pdf ./ ./mybook.pdf
+
+# Generate an ePub file
+$ gitbook epub ./ ./mybook.epub
+
+# Generate a Mobi file
+$ gitbook mobi ./ ./mybook.mobi
+```
+
 Optionally, you may like to rearrange the order of some pages with Adobe Pro's 'Organise Pages' or similar. 
 By default gitbook puts the table of contents first, if there is no cover.jpg file found.
 
